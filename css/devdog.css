@@ -11,6 +11,10 @@ body {
   margin: 0;
 }
 
+.page-inner{
+	max-width: 1000px;
+}
+
 /* LANGS.md index page */
 .book-langs-index {
   font-family: 'Raleway', 'Helvetica Neue', Arial, sans-serif;
@@ -21,6 +25,7 @@ body {
 .book-langs-index .inner .languages li {
   float: none;
 }
+
 li a {
   color: #42b983;
   font-weight: 600;
@@ -83,7 +88,7 @@ li a {
   background-color: #f8f8f8;
 }
 code span.shell,
-code span.csharp,
+code span.cs,
 span[class^="hljs-"] {
   -webkit-font-smoothing: initial;
   -moz-osx-font-smoothing: initial;
@@ -119,7 +124,7 @@ code .token {
   -moz-osx-font-smoothing: initial;
 }
 pre code { position: relative; }
-pre code.lang-csharp:after,
+pre code.lang-cs:after,
 pre code.lang-bash:after {
   position: absolute;
   top: 0;
@@ -132,7 +137,7 @@ pre code.lang-bash:after {
   height: 15px;
   font-weight: 600;
 }
-pre code.lang-csharp:after {
+pre code.lang-cs:after {
   content: 'C#';
 }
 pre code.lang-bash:after {
