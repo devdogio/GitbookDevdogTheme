@@ -1,0 +1,11 @@
+{
+  "name": "gitbook-plugin-devdog-theme",
+  "version": "1.0.0",
+  "description": "Devdog theme for gitbook",
+  "engines": {
+    "gitbook": ">1.x.x"
+  },
+  "gitbook": {
+    "properties": {}
+  }
+}
