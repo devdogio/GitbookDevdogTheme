@@ -1,6 +1,6 @@
 {
   "name": "gitbook-plugin-devdog-theme",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Devdog theme for gitbook",
   "engines": {
     "gitbook": ">1.x.x"

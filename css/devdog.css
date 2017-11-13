@@ -139,20 +139,20 @@ code .token {
   -moz-osx-font-smoothing: initial;
 }
 pre code { position: relative; }
-pre code.lang-cs:after,
+pre code.lang-csharp:after,
 pre code.lang-bash:after {
   position: absolute;
   top: 0;
   right: 0;
   color: #ccc;
   text-align: right;
-  font-size: 0.75em;
+  font-size: 0.9em;
   padding: 5px 10px 0;
   line-height: 15px;
   height: 15px;
   font-weight: 600;
 }
-pre code.lang-cs:after {
+pre code.lang-csharp:after {
   content: 'C#';
 }
 pre code.lang-bash:after {
